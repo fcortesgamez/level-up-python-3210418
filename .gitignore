@@ -2,3 +2,8 @@
 node_modules
 .tmp
 npm-debug.log
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
