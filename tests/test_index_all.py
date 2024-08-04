@@ -1,5 +1,5 @@
 import unittest
-from challengues.indexall import index_all
+from challengues.index_all import index_all
 
 
 class TestIndexAll(unittest.TestCase):

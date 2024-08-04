@@ -1,5 +1,5 @@
 import unittest
-from challengues.sortwords import sort_words
+from challengues.sort_words import sort_words
 
 
 class TestSortWords(unittest.TestCase):
