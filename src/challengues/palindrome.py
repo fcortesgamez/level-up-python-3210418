@@ -1,7 +1,7 @@
+import re
+
+
 def is_palindrome(word) -> bool:
-    cleaned = "".join(only_letters(word)).lower()
-    return cleaned == cleaned[::-1]
-
-
-def only_letters(word):
-    return (c for c in word if c.isalpha())
+    forwards = "".join(re.findall(r"[a-z]+", word.lower()))
+    backwards = forwards[::-1]
+    return forwards == backwards
